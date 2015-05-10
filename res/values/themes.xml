@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Theme -->
+
+    <style name="Theme.Popcorn" parent="android:Theme.Holo">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.Popcorn.Player" parent="Theme.Popcorn">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/classic_video_body</item>
+    </style>
+
+    <style name="Theme.Popcorn.Classic" parent="Theme.Popcorn">
+        <item name="android:popupMenuStyle">@style/Widget.Popcorn.Classic.PopupMenu</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/TextAppearance.Popcorn.Classic.Widget.PopupMenu.Small</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/TextAppearance.Popcorn.Classic.Widget.PopupMenu.Large</item>
+        <item name="Popcorn.headerBackground">@drawable/popcorn_header_bck</item>
+        <item name="Popcorn.contentBackground">@color/classic_main_body</item>
+    </style>
+
+</resources>

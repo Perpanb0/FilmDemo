@@ -1,0 +1,149 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:127), pid=7824, tid=6768
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (8.0_40-b25) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.40-b25 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000128d800):  JavaThread "Unknown thread" [_thread_in_vm, id=6768, stack(0x0000000002dd0000,0x0000000002ed0000)]
+
+Stack: [0x0000000002dd0000,0x0000000002ed0000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x32b47a]
+V  [jvm.dll+0x2797f3]
+V  [jvm.dll+0x27a489]
+V  [jvm.dll+0x271726]
+V  [jvm.dll+0x67fd3]
+V  [jvm.dll+0x680c3]
+V  [jvm.dll+0x7d63a]
+V  [jvm.dll+0x7d9a6]
+V  [jvm.dll+0xf2077]
+V  [jvm.dll+0xf2406]
+V  [jvm.dll+0x20f107]
+V  [jvm.dll+0x240d9a]
+V  [jvm.dll+0x15b941]
+C  [javaw.exe+0x217e]
+C  [javaw.exe+0xcd17]
+C  [javaw.exe+0xcdab]
+C  [KERNEL32.DLL+0x13d2]
+C  [ntdll.dll+0x6e954]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000000000128d800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=6768, stack(0x0000000002dd0000,0x0000000002ed0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.019 loading class java/lang/CharSequence done
+Event: 0.019 loading class java/lang/String done
+Event: 0.019 loading class java/lang/Class
+Event: 0.019 loading class java/lang/reflect/AnnotatedElement
+Event: 0.019 loading class java/lang/reflect/AnnotatedElement done
+Event: 0.019 loading class java/lang/reflect/GenericDeclaration
+Event: 0.020 loading class java/lang/reflect/GenericDeclaration done
+Event: 0.020 loading class java/lang/reflect/Type
+Event: 0.020 loading class java/lang/reflect/Type done
+Event: 0.020 loading class java/lang/Class done
+
+
+Dynamic libraries:
+0x00007ff61f4a0000 - 0x00007ff61f4d7000 	C:\Program Files\Java\jre1.8.0_40\bin\javaw.exe
+0x00007ff8acc50000 - 0x00007ff8acdfc000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ff8ac460000 - 0x00007ff8ac59e000 	C:\Windows\system32\KERNEL32.DLL
+0x00007ff8a9e70000 - 0x00007ff8a9f85000 	C:\Windows\system32\KERNELBASE.dll
+0x00007ff8a8910000 - 0x00007ff8a899e000 	C:\Windows\system32\apphelp.dll
+0x00007ff89d1c0000 - 0x00007ff89d213000 	C:\Windows\AppPatch\AppPatch64\AcGenral.DLL
+0x00007ff8ac9e0000 - 0x00007ff8aca8a000 	C:\Windows\system32\msvcrt.dll
+0x00007ff8a9ba0000 - 0x00007ff8a9bce000 	C:\Windows\SYSTEM32\SspiCli.dll
+0x00007ff8aa780000 - 0x00007ff8aa7d4000 	C:\Windows\system32\SHLWAPI.dll
+0x00007ff8aa3e0000 - 0x00007ff8aa557000 	C:\Windows\system32\USER32.dll
+0x00007ff8ac110000 - 0x00007ff8ac2a4000 	C:\Windows\system32\ole32.dll
+0x00007ff8aab20000 - 0x00007ff8ac038000 	C:\Windows\system32\SHELL32.dll
+0x00007ff8a9330000 - 0x00007ff8a9351000 	C:\Windows\SYSTEM32\USERENV.dll
+0x00007ff8aa2d0000 - 0x00007ff8aa37a000 	C:\Windows\system32\ADVAPI32.dll
+0x00007ff8a0840000 - 0x00007ff8a085e000 	C:\Windows\SYSTEM32\MPR.dll
+0x00007ff8ac630000 - 0x00007ff8ac771000 	C:\Windows\system32\RPCRT4.dll
+0x00007ff8aa8b0000 - 0x00007ff8aa909000 	C:\Windows\SYSTEM32\sechost.dll
+0x00007ff8aa560000 - 0x00007ff8aa771000 	C:\Windows\SYSTEM32\combase.dll
+0x00007ff8acaf0000 - 0x00007ff8acc41000 	C:\Windows\system32\GDI32.dll
+0x00007ff8a9da0000 - 0x00007ff8a9db5000 	C:\Windows\SYSTEM32\profapi.dll
+0x00007ff8a8570000 - 0x00007ff8a8622000 	C:\Windows\SYSTEM32\SHCORE.dll
+0x00007ff8ac8e0000 - 0x00007ff8ac916000 	C:\Windows\system32\IMM32.DLL
+0x00007ff8ac780000 - 0x00007ff8ac8d1000 	C:\Windows\system32\MSCTF.dll
+0x00007ff8a9d60000 - 0x00007ff8a9d8f000 	C:\Windows\system32\nvinitx.dll
+0x000000000f000000 - 0x000000000f006000 	C:\Program Files\NVIDIA Corporation\CoProcManager\detoured.dll
+0x00007ff8a7de0000 - 0x00007ff8a7e3f000 	C:\Program Files\NVIDIA Corporation\CoProcManager\nvd3d9wrapx.dll
+0x00007ff8aa910000 - 0x00007ff8aaaea000 	C:\Windows\system32\SETUPAPI.dll
+0x00007ff8aa220000 - 0x00007ff8aa26f000 	C:\Windows\system32\CFGMGR32.dll
+0x00007ff8a7ce0000 - 0x00007ff8a7d26000 	C:\Program Files\NVIDIA Corporation\CoProcManager\nvdxgiwrapx.dll
+0x00007ff8a7e40000 - 0x00007ff8a80bb000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17415_none_6240486fecbd8abb\COMCTL32.dll
+0x0000000058ce0000 - 0x0000000058db2000 	C:\Program Files\Java\jre1.8.0_40\bin\msvcr100.dll
+0x0000000057f50000 - 0x00000000587d3000 	C:\Program Files\Java\jre1.8.0_40\bin\server\jvm.dll
+0x00007ff8929b0000 - 0x00007ff8929b9000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ff8a7ca0000 - 0x00007ff8a7cc2000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ff8a7890000 - 0x00007ff8a789a000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007ff8aab10000 - 0x00007ff8aab17000 	C:\Windows\system32\PSAPI.DLL
+0x00007ff8aca90000 - 0x00007ff8acaea000 	C:\Windows\system32\WS2_32.dll
+0x00007ff8a7980000 - 0x00007ff8a79aa000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x00007ff8aaaf0000 - 0x00007ff8aaaf9000 	C:\Windows\system32\NSI.dll
+0x00007ff8a8b70000 - 0x00007ff8a8b98000 	C:\Windows\SYSTEM32\DEVOBJ.dll
+0x0000000058e80000 - 0x0000000058e8f000 	C:\Program Files\Java\jre1.8.0_40\bin\verify.dll
+0x0000000058e50000 - 0x0000000058e79000 	C:\Program Files\Java\jre1.8.0_40\bin\java.dll
+0x0000000058e30000 - 0x0000000058e46000 	C:\Program Files\Java\jre1.8.0_40\bin\zip.dll
+0x00007ff8a1860000 - 0x00007ff8a19ea000 	C:\Windows\SYSTEM32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:D:\Work\adt-bundle-windows-x86_64-20140702\sdk\platforms\android-21\android.jar 
+java_command: dp.ws.popcorntime.ui.MainActivity
+java_class_path (initial): D:\Work\eclipse-android\Android Workspace\PopcornTime_Android-src\appcompat\libs\android-support-v4.jar;D:\Work\eclipse-android\Android Workspace\google-play-services_lib\libs\google-play-services.jar;D:\Work\eclipse-android\Android Workspace\Time4Popcorn\libs\commons-io-2.4.jar;D:\Work\eclipse-android\Android Workspace\PopcornTime_Android-src\mediarouter\libs\android-support-v7-mediarouter.jar;D:\Work\eclipse-android\Android Workspace\Time4Popcorn\libs\universal-image-loader-1.9.2.jar;D:\Work\eclipse-android\Android Workspace\PopcornTime_Android-src\appcompat\libs\android-support-v7-appcompat.jar;D:\Work\eclipse-android\Android Workspace\Time4Popcorn\libs\juniversalchardet-1.0.3.jar;D:\Work\eclipse-android\Android Workspace\Time4Popcorn\libs\acra-4.5.0.jar;D:\Work\eclipse-android\Android Workspace\PopcornTime_Android-src\LibVLC\bin\libvlc.jar;D:\Work\eclipse-android\Android Workspace\PopcornTime_Android-src\RoundedImageView\bin\roundedimageview.jar;D:\Work\eclipse-android\Android Workspace\google-play-services_lib\bin\google-play-services_lib.jar;D:\Work\eclipse-android\Android Workspace\PopcornTime_Android-src\mediarouter\bin\android-support-v7-mediarouter.jar;D:\Work\eclipse-android\Android Workspace\PopcornTime_Android-src\appcompat\bin\android-support-v7-appcompat.jar;D:\Work\eclipse-android\Android Workspace\Time4Popcorn\bin\classes
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jre1.8.0_40
+JRE_HOME=C:\Program Files\Java\jre1.8.0_40
+PATH=C:/Program Files/Java/jre1.8.0_40/bin/server;C:/Program Files/Java/jre1.8.0_40/bin;C:/Program Files/Java/jre1.8.0_40/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.6\;C:\Program Files\Java\jre1.8.0_40;C:\Program Files (x86)\OpenVPN\bin;D:\Work\eclipse-android\eclipse-luna;
+USERNAME=MRTHINH
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8.1 , 64 bit Build 9600 (6.3.9600.17415)
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, clmul, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 8280232k(3284552k free), swap 10246312k(3297160k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.40-b25) for windows-amd64 JRE (1.8.0_40-b25), built on Feb 10 2015 21:53:57 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Mon Mar 30 01:45:56 2015
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

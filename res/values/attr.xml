@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="Popcorn.headerBackground" format="reference|color" />
+    <attr name="Popcorn.contentBackground" format="reference|color" />
+
+</resources>

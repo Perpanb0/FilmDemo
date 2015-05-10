@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/downloads_resume_all"
+        android:showAsAction="never"
+        android:title="@string/resume_all"/>
+    <item
+        android:id="@+id/downloads_pause_all"
+        android:showAsAction="never"
+        android:title="@string/pause_all"/>
+    <item
+        android:id="@+id/downloads_remove_all"
+        android:showAsAction="never"
+        android:title="@string/remove_all"/>
+
+</menu>

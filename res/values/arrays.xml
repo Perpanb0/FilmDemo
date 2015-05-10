@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Genres -->
+
+    <string-array name="genres">
+        <item>@string/popular</item>
+        <item>@string/action</item>
+        <item>@string/adventure</item>
+        <item>@string/animation</item>
+        <item>@string/biography</item>
+        <item>@string/comedy</item>
+        <item>@string/crime</item>
+        <item>@string/documentary</item>
+        <item>@string/drama</item>
+        <item>@string/family</item>
+        <item>@string/fantasy</item>
+        <item>@string/film_noir</item>
+        <item>@string/history</item>
+        <item>@string/horror</item>
+        <item>@string/music</item>
+        <item>@string/musical</item>
+        <item>@string/mystery</item>
+        <item>@string/romance</item>
+        <item>@string/sci_fi</item>
+        <item>@string/short_</item>
+        <item>@string/sport</item>
+        <item>@string/thriller</item>
+        <item>@string/war</item>
+        <item>@string/western</item>
+    </string-array>
+    <string-array name="request_genres">
+        <item>@string/genre_popular</item>
+        <item>@string/genre_action</item>
+        <item>@string/genre_adventure</item>
+        <item>@string/genre_animation</item>
+        <item>@string/genre_biography</item>
+        <item>@string/genre_comedy</item>
+        <item>@string/genre_crime</item>
+        <item>@string/genre_documentary</item>
+        <item>@string/genre_drama</item>
+        <item>@string/genre_family</item>
+        <item>@string/genre_fantasy</item>
+        <item>@string/genre_film_noir</item>
+        <item>@string/genre_history</item>
+        <item>@string/genre_horror</item>
+        <item>@string/genre_music</item>
+        <item>@string/genre_musical</item>
+        <item>@string/genre_mystery</item>
+        <item>@string/genre_romance</item>
+        <item>@string/genre_sci_fi</item>
+        <item>@string/genre_short_</item>
+        <item>@string/genre_sport</item>
+        <item>@string/genre_thriller</item>
+        <item>@string/genre_war</item>
+        <item>@string/genre_western</item>
+    </string-array>
+
+    <!-- Start page -->
+
+    <string-array name="start_pages">
+        <item>@string/movies</item>
+        <item>@string/tv_shows</item>
+    </string-array>
+
+    <!-- Theme -->
+
+    <string-array name="themes">
+        <item>@string/theme_classic</item>
+    </string-array>
+
+    <!-- Hardware acceleration -->
+
+    <string-array name="accelerations">
+        <item>@string/automatic</item>
+        <item>@string/hardware_acceleration_disabled</item>
+        <item>@string/hardware_acceleration_decoding</item>
+        <item>@string/hardware_acceleration_full</item>
+    </string-array>
+
+    <!-- Subtitle font size -->
+
+    <string-array name="font_size_names">
+        <item>@string/extra_small</item>
+        <item>@string/small</item>
+        <item>@string/normal</item>
+        <item>@string/large</item>
+        <item>@string/extra_large</item>
+    </string-array>
+
+    <!-- Subtitle font color -->
+
+    <string-array name="font_color_names">
+        <item>@string/white</item>
+        <item>@string/yellow</item>
+    </string-array>
+
+</resources>

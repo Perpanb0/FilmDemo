@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Widget -->
+
+    <style name="Widget.Popcorn.Classic.RatingBar" parent="@android:style/Widget.Holo.RatingBar">
+        <item name="android:isIndicator">true</item>
+        <item name="android:maxHeight">@dimen/video_rating_size</item>
+        <item name="android:minHeight">@dimen/video_rating_size</item>
+        <item name="android:numStars">5</item>
+        <item name="android:stepSize">0.5</item>
+        <item name="android:progressDrawable">@drawable/popcorn_rating_bar</item>
+    </style>
+
+    <style name="Widget.Popcorn.Classic.PopupMenu" parent="@android:style/Widget.Holo.PopupMenu"></style>
+
+    <style name="TextAppearance.Popcorn.Classic.Widget.PopupMenu.Small" parent="@android:style/TextAppearance.Holo.Widget.PopupMenu.Small">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="TextAppearance.Popcorn.Classic.Widget.PopupMenu.Large" parent="@android:style/TextAppearance.Holo.Widget.PopupMenu.Large">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- Settings -->
+
+    <style name="SettingsButton">
+        <item name="android:paddingLeft">@dimen/header_button_padding</item>
+        <item name="android:paddingRight">@dimen/header_button_padding</item>
+        <item name="android:background">@drawable/popcorn_settings_selector</item>
+    </style>
+
+    <style name="SettingsHeader">
+        <item name="android:textColor">@color/p_drawer_item_selected</item>
+        <item name="android:textSize">@dimen/settings_category_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SettingsItem">
+        <item name="android:background">@drawable/header_button_selector</item>
+        <item name="android:paddingLeft">@dimen/settings_padding</item>
+    </style>
+
+    <style name="SettingsItemTitle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/settings_item_title</item>
+    </style>
+
+    <style name="SettingsItemSummary">
+        <item name="android:textColor">#a8a8a8</item>
+        <item name="android:textSize">@dimen/settings_item_summary</item>
+    </style>
+
+    <!-- Other -->
+
+    <style name="HeaderButton">
+        <item name="android:paddingLeft">@dimen/header_button_padding</item>
+        <item name="android:paddingRight">@dimen/header_button_padding</item>
+        <item name="android:background">@drawable/header_button_selector</item>
+    </style>
+
+    <style name="WatchButton">
+        <item name="android:background">@drawable/popcorn_watch_selector</item>
+        <item name="android:shadowColor">@color/classic_text_shadow</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textColor">@color/classic_watch_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DownloadOpenButton">
+        <item name="android:minHeight">@dimen/video_download_height</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/video_download_text</item>
+    </style>
+
+    <style name="VideoItemSelectButton">
+        <item name="android:background">@drawable/popcorn_spinner</item>
+        <item name="android:minHeight">@dimen/video_spinner_height</item>
+        <item name="android:textSize">@dimen/video_spinner_text</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+
+    <style name="PopcornSpinner">
+        <item name="android:background">@drawable/popcorn_spinner</item>
+        <item name="android:minHeight">@dimen/video_spinner_height</item>
+        <item name="android:spinnerMode">dialog</item>
+    </style>
+
+    <style name="DrawerSwitch">
+        <item name="android:minHeight">@dimen/drawer_switch_height</item>
+        <item name="android:maxHeight">@dimen/drawer_switch_height</item>
+        <item name="android:textAppearance">@style/DrawerSwitchUnselected</item>
+        <item name="android:background">@drawable/drawer_switch_unselected_selector</item>
+        <item name="android:textSize">@dimen/drawer_switch_text</item>
+    </style>
+
+    <style name="DrawerSwitchSelected">
+        <item name="android:textColor">@color/classic_drawer_btn_text_selected</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DrawerSwitchUnselected">
+        <item name="android:textColor">@color/classic_drawer_btn_text_unselected</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FavoritesToggleButton">
+        <item name="android:background">@drawable/popcorn_favorites_bkg</item>
+        <item name="android:textOff"></item>
+        <item name="android:textOn"></item>
+    </style>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/classic_main_body"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/folder_chooser_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:overScrollMode="never" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/folder_chooser_cancel"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/popcorn_folder_chooser_selector" />
+
+        <Button
+            android:id="@+id/folder_chooser_confirm"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/popcorn_folder_chooser_selector" />
+    </LinearLayout>
+
+</LinearLayout>

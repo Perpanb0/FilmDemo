@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <dp.ws.popcorntime.ui.widget.BlockTouchFrameLayout
+        android:id="@+id/popcorn_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height" >
+    </dp.ws.popcorntime.ui.widget.BlockTouchFrameLayout>
+
+    <dp.ws.popcorntime.ui.widget.BlockTouchFrameLayout
+        android:id="@+id/popcorn_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/popcorn_header" >
+    </dp.ws.popcorntime.ui.widget.BlockTouchFrameLayout>
+
+    <View
+        android:id="@+id/popcorn_header_line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/popcorn_header"
+        android:layout_marginTop="-3dp"
+        android:background="@drawable/popcorn_header_line" />
+
+    <ImageView
+        android:id="@+id/popcorn_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/popcorn_header_line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-36dp"
+        android:src="@drawable/logo" />
+
+    <FrameLayout
+        android:id="@+id/popcorn_splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:visibility="gone" >
+    </FrameLayout>
+
+</RelativeLayout>

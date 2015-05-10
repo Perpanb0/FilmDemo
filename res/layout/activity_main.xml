@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eu.time4popcorn.ui.MainActivity" >
+
+    <dp.ws.popcorntime.ui.widget.BlockTouchFrameLayout
+        android:id="@+id/main_content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/classic_main_body" >
+    </dp.ws.popcorntime.ui.widget.BlockTouchFrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_drawer"
+        android:layout_width="@dimen/drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/classic_drawer_body"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <LinearLayout
+            android:id="@+id/main_drawer_video_switcher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/drawer_switch_layout"
+            android:orientation="horizontal"
+            android:padding="3dp" >
+
+            <Button
+                android:id="@+id/main_drawer_movies_btn"
+                style="@style/DrawerSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/main_drawer_tvshows_btn"
+                style="@style/DrawerSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/main_drawer_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/main_drawer_search"
+            android:layout_below="@+id/main_drawer_video_switcher"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/black"
+            android:dividerHeight="1dp"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp" />
+
+        <EditText
+            android:id="@+id/main_drawer_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/popcorn_search"
+            android:drawableEnd="@drawable/ic_action_search"
+            android:drawableRight="@drawable/ic_action_search"
+            android:ellipsize="none"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:minHeight="@dimen/drawer_search_height"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="#676767"
+            android:textSize="@dimen/drawer_search_text"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>

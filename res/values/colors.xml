@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- popcorn -->
+    <color name="p_main_video_background">#323232</color>
+    <color name="p_action_bar">#313131</color>
+    <color name="p_drawer_item_normal">#cccccc</color>
+    <color name="p_drawer_item_selected">#3da8d4</color>
+    <color name="p_btn_pressed">#1a1a1a</color>
+    <color name="p_btn_normal">#272829</color>
+    <color name="p_selector_btn_selected">#3da8d4</color>
+    <color name="p_video_watch_pressed">#0195d2</color>
+    <color name="p_video_watch_unpressed">#3da8d4</color>
+    <color name="p_video_trailer_pressed">#b80000</color>
+    <color name="p_video_trailer_unpressed">#ff0000</color>
+
+    <!-- classic -->
+    <color name="classic_main_body">#323232</color>
+    <color name="classic_video_body">#000000</color>
+    <color name="classic_header_start">#282828</color>
+    <color name="classic_header_line_shadow">#ee323232</color>
+    <color name="classic_header_end">#1e1e1e</color>
+    <color name="classic_drawer_body">#121212</color>
+    <color name="classic_drawer_switcher">#0e0e0e</color>
+    <color name="classic_drawer_switcher_shadow">#2a2a2a</color>
+    <color name="classic_drawer_btn_text_unselected">#616161</color>
+    <color name="classic_drawer_btn_text_selected">#23434f</color>
+    <color name="classic_watch_text">#23434f</color>
+    <color name="classic_text_shadow">#a6e3f5</color>
+    <color name="classic_download_start">#86c44f</color>
+    <color name="classic_download_end">#3c7a1a</color>
+    <color name="classic_open_start">#828282</color>
+    <color name="classic_open_end">#525252</color>
+    <color name="classic_poster_shadow">#ee282828</color>
+
+</resources>

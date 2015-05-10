@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dp.ws.popcorntime.ui.settings.SettingsView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/Popcorn.contentBackground"
+    android:divider="#000000"
+    android:dividerHeight="1dp"
+    android:overScrollMode="never"
+    android:paddingLeft="@dimen/settings_padding"
+    android:paddingRight="@dimen/settings_padding" >
+
+</dp.ws.popcorntime.ui.settings.SettingsView>

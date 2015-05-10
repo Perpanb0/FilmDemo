@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popcorn_header_bck" >
+
+    <ImageButton
+        android:id="@+id/popcorn_action_upfolder"
+        style="@style/HeaderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/navigation_up_light" />
+
+    <TextView
+        android:id="@+id/folder_chooser_selected_folder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/popcorn_action_upfolder"
+        android:layout_toRightOf="@id/popcorn_action_upfolder"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" >
+    </TextView>
+
+</RelativeLayout>
